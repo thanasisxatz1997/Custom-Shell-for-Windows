@@ -1,0 +1,42 @@
+ALL THE FILES MUST BE AT THE FOLDER WHERE THE PROGRAM IS COMPILED(Where the .exe is)
+
+1)dir:
+Shows the contents of the current directory
+
+2)echo:
+The correct syntax is: echo alphanumeric_value
+Prints the alphanumeric_value given by the user
+
+3)find:
+The correct syntax is: find source_text_file alphanumeric > destination_text_file
+
+The program distinguishes lower and upper characters
+if for example you search for the word Hello but there is only the word hello
+then the program will not copy the line to the destination file
+
+There must be no spaces in the source_text_file or the destination_text_file
+
+4)del:
+The correct syntax is: del *.* alphanumeric
+
+The program distinguishes lower and upper characters.
+If for example you type del *.* Hello but there is only the word hello in the file
+the program will not delete the said file.
+
+5)tree:
+Shows the tree for the current directory
+
+How to test the program!
+For the find command:
+inside the .exe file  include RandomText.txt
+open up .exe and type the command find RandomText.txt Difficulty > destination.txt
+
+or instead of Difficulty some other word that exists in the txt file.
+
+For del command:
+after you run the find command and destination.txt has been created run the del command del *.* Difficulty
+
+or instead of Difficulty some other word that exists in the txt file.
+
+
+CHATZIATHANASIOU ATHANASIOS
